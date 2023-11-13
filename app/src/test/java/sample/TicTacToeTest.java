@@ -18,11 +18,11 @@ public class TicTacToeTest {
         for(char[] line : board){
             assertEquals(defaultSize, line.length); //全ての行に3列分の要素があること。
         }
-        assertEquals(1, 0);
     }
 
     /** 初期ボードの状態確認テスト
      * BoardSizeTest() を参考に、TicTacToe.initalize()を実行した
      * 直後のボード内の要素が全て 'e' であることを確認するテスト。
+     * op
      */
 }
